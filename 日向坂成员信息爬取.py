@@ -87,7 +87,4 @@ def write_excel():
     worksheet.write(len(name)+1,0,label = '本xls于{}创建。'.format(str(time.strftime("%Y年%m月%d日%H:%M:%S",time.localtime()))))
     f.save('D:/Hinatazaka46Member.xls')
     
-
 write_excel()
-
-        
