@@ -5,7 +5,7 @@ import re
 
 #通配
 url = 'https://www.hinatazaka46.com/s/official/media/list?ima=0000&dy='
-#伪装
+#伪装，避免被网站反爬虫ban
 headers = {'User-Agent':'Chrome/72.0'}
 
 def geturl(url):#获取待搜寻文本
