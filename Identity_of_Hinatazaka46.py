@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as bs
 import time
 import xlwt
 
-#日向坂
+#Hinatazaka46
 pathroot = 'https://www.hinatazaka46.com/s/official/artist/'
 
 def fullpath(num): #补全网址
